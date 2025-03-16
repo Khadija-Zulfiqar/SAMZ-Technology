@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+      .main{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width: 900px;
+        background-color: #93B1B5;
+        border-radius: 10px;
+      }
+      .nav{
+        background-color: #0B2E33;
+        color: white;
+        padding: 1px 0px;
+
+      }
+
+      ul{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 18px;
+      }
+
+
+      a{
+        color: white;
+        text-decoration: none;
+      }
+
+      h2{
+        text-decoration: underline;
+        color: #0B2E33;
+      }
+
+      h1{
+        font-family: 'poppins';
+        
+      }
+
+      .project{
+        width: 750px;
+        border: solid #0B2E33 2px;
+      }
+
+      table{
+        border: solid #0B2E33 2px;
+        width: 750px;
+        align-items: center;
+      }
+      th {
+        border: 1px solid #0B2E33; 
+        padding: 10px;
+        text-align: center;
+        background-color: #0B2E33;
+        color: white;
+    
+    }
+
+    td {
+        border: 1px solid #0B2E33; 
+        padding: 10px;
+        text-align: center;
+    
+    }
+      input{
+        width:550px;
+      }
+
+    video{
+      width: 600px;
+      height: 400px;
+    }
+    </style>
+
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; margin: 20px;">
+    <center>
+    <div class="main"> 
+        <h1>My Portfolio</h1>
+
+    <div class="nav">
+        <ul style="list-style: none; padding: 0;">
+            <li style="display: inline; margin: 0 10px;"><a href="#about">About Me</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#projects">Projects</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#skills">Skills</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#contact">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Khadija Zulfiqar, and I am a student of Software Engineering. right now, I am working as a web developer. I enjoy building creative websites.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project"> 
+            <video src="portfolio.mp4" controls>
+                This video cannot be played now.
+            </video>
+            <h3>Portfolio Website</h3>
+            <p>A personal website to showcase my work.</p>
+        </div>
+        <br>
+        <div class="project">
+          <video src="blog.mp4" controls>
+            This video cannot be played now.
+        </video>
+            <h3>Blog Platform</h3>
+            <p>A blog where users can post and read articles.</p>
+        </div>
+        <br>
+        <div class="project">
+          <video src="to-do.mp4" controls>
+            This video cannot be played now.
+        </video>
+            <h3>To-Do List App</h3>
+            <p>An app to manage daily tasks efficiently.</p>
+        </div>
+    </section>
+    <br>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <table >
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+    </section>
+    <br>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required style="width: 550px; padding: 10px; margin-top: 5px; border-radius: 10px; border: solid #0B2E33 2px;"><br>
+            <input type="email" name="email" placeholder="Your Email" required style="width: 550px; padding: 10px; margin-top: 8px; border-radius: 10px; border: solid #0B2E33 2px;"><br>
+            <textarea name="message" placeholder="Your Message" rows="4" required style="width: 550px; padding: 10px; margin-top: 8px; border-radius: 10px; border: solid #0B2E33 2px;"></textarea><br>
+            <input type="submit" value="Send Message" style="padding: 8px; margin-top: 10px; border-radius: 10px; background-color: #0B2E33; color: white; width: 150px;">
+        </form>
+    </section>
+    <br>
+    </div>
+</center>
+
+    
+
+
+</body>
+</html> 
